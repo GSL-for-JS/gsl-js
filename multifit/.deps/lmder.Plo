@@ -1,0 +1,220 @@
+lmder.lo: lmder.c ../config.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/stddef.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/alltypes.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/compat/stdlib.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/stdlib.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/features.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/alloca.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/stdio.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/compat/math.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/math.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/float.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/float.h \
+  ../gsl/gsl_math.h ../gsl/gsl_sys.h ../gsl/gsl_inline.h \
+  ../gsl/gsl_machine.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/limits.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/limits.h \
+  ../gsl/gsl_precision.h ../gsl/gsl_types.h ../gsl/gsl_nan.h \
+  ../gsl/gsl_pow_int.h ../gsl/gsl_minmax.h ../gsl/gsl_errno.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/errno.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/errno.h \
+  ../gsl/gsl_multifit_nlin.h ../gsl/gsl_vector.h \
+  ../gsl/gsl_vector_complex_long_double.h ../gsl/gsl_complex.h \
+  ../gsl/gsl_check_range.h ../gsl/gsl_vector_long_double.h \
+  ../gsl/gsl_block_long_double.h ../gsl/gsl_vector_complex.h \
+  ../gsl/gsl_block_complex_long_double.h \
+  ../gsl/gsl_vector_complex_double.h ../gsl/gsl_vector_double.h \
+  ../gsl/gsl_block_double.h ../gsl/gsl_block_complex_double.h \
+  ../gsl/gsl_vector_complex_float.h ../gsl/gsl_vector_float.h \
+  ../gsl/gsl_block_float.h ../gsl/gsl_block_complex_float.h \
+  ../gsl/gsl_vector_ulong.h ../gsl/gsl_block_ulong.h \
+  ../gsl/gsl_vector_long.h ../gsl/gsl_block_long.h \
+  ../gsl/gsl_vector_uint.h ../gsl/gsl_block_uint.h \
+  ../gsl/gsl_vector_int.h ../gsl/gsl_block_int.h \
+  ../gsl/gsl_vector_ushort.h ../gsl/gsl_block_ushort.h \
+  ../gsl/gsl_vector_short.h ../gsl/gsl_block_short.h \
+  ../gsl/gsl_vector_uchar.h ../gsl/gsl_block_uchar.h \
+  ../gsl/gsl_vector_char.h ../gsl/gsl_block_char.h ../gsl/gsl_matrix.h \
+  ../gsl/gsl_matrix_complex_long_double.h \
+  ../gsl/gsl_matrix_complex_double.h ../gsl/gsl_matrix_complex_float.h \
+  ../gsl/gsl_matrix_long_double.h ../gsl/gsl_matrix_double.h \
+  ../gsl/gsl_matrix_float.h ../gsl/gsl_matrix_ulong.h \
+  ../gsl/gsl_matrix_long.h ../gsl/gsl_matrix_uint.h \
+  ../gsl/gsl_matrix_int.h ../gsl/gsl_matrix_ushort.h \
+  ../gsl/gsl_matrix_short.h ../gsl/gsl_matrix_uchar.h \
+  ../gsl/gsl_matrix_char.h ../gsl/gsl_blas.h ../gsl/gsl_blas_types.h \
+  ../gsl/gsl_cblas.h ../gsl/gsl_linalg.h ../gsl/gsl_mode.h \
+  ../gsl/gsl_permutation.h lmutil.c lmpar.c \
+  ../gsl/gsl_permute_vector_double.h qrsolv.c lmset.c lmiterate.c
+
+../config.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/stddef.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/alltypes.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/compat/stdlib.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/stdlib.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/features.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/alloca.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/stdio.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/compat/math.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/math.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/float.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/float.h:
+
+../gsl/gsl_math.h:
+
+../gsl/gsl_sys.h:
+
+../gsl/gsl_inline.h:
+
+../gsl/gsl_machine.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/limits.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/limits.h:
+
+../gsl/gsl_precision.h:
+
+../gsl/gsl_types.h:
+
+../gsl/gsl_nan.h:
+
+../gsl/gsl_pow_int.h:
+
+../gsl/gsl_minmax.h:
+
+../gsl/gsl_errno.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/errno.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/errno.h:
+
+../gsl/gsl_multifit_nlin.h:
+
+../gsl/gsl_vector.h:
+
+../gsl/gsl_vector_complex_long_double.h:
+
+../gsl/gsl_complex.h:
+
+../gsl/gsl_check_range.h:
+
+../gsl/gsl_vector_long_double.h:
+
+../gsl/gsl_block_long_double.h:
+
+../gsl/gsl_vector_complex.h:
+
+../gsl/gsl_block_complex_long_double.h:
+
+../gsl/gsl_vector_complex_double.h:
+
+../gsl/gsl_vector_double.h:
+
+../gsl/gsl_block_double.h:
+
+../gsl/gsl_block_complex_double.h:
+
+../gsl/gsl_vector_complex_float.h:
+
+../gsl/gsl_vector_float.h:
+
+../gsl/gsl_block_float.h:
+
+../gsl/gsl_block_complex_float.h:
+
+../gsl/gsl_vector_ulong.h:
+
+../gsl/gsl_block_ulong.h:
+
+../gsl/gsl_vector_long.h:
+
+../gsl/gsl_block_long.h:
+
+../gsl/gsl_vector_uint.h:
+
+../gsl/gsl_block_uint.h:
+
+../gsl/gsl_vector_int.h:
+
+../gsl/gsl_block_int.h:
+
+../gsl/gsl_vector_ushort.h:
+
+../gsl/gsl_block_ushort.h:
+
+../gsl/gsl_vector_short.h:
+
+../gsl/gsl_block_short.h:
+
+../gsl/gsl_vector_uchar.h:
+
+../gsl/gsl_block_uchar.h:
+
+../gsl/gsl_vector_char.h:
+
+../gsl/gsl_block_char.h:
+
+../gsl/gsl_matrix.h:
+
+../gsl/gsl_matrix_complex_long_double.h:
+
+../gsl/gsl_matrix_complex_double.h:
+
+../gsl/gsl_matrix_complex_float.h:
+
+../gsl/gsl_matrix_long_double.h:
+
+../gsl/gsl_matrix_double.h:
+
+../gsl/gsl_matrix_float.h:
+
+../gsl/gsl_matrix_ulong.h:
+
+../gsl/gsl_matrix_long.h:
+
+../gsl/gsl_matrix_uint.h:
+
+../gsl/gsl_matrix_int.h:
+
+../gsl/gsl_matrix_ushort.h:
+
+../gsl/gsl_matrix_short.h:
+
+../gsl/gsl_matrix_uchar.h:
+
+../gsl/gsl_matrix_char.h:
+
+../gsl/gsl_blas.h:
+
+../gsl/gsl_blas_types.h:
+
+../gsl/gsl_cblas.h:
+
+../gsl/gsl_linalg.h:
+
+../gsl/gsl_mode.h:
+
+../gsl/gsl_permutation.h:
+
+lmutil.c:
+
+lmpar.c:
+
+../gsl/gsl_permute_vector_double.h:
+
+qrsolv.c:
+
+lmset.c:
+
+lmiterate.c:

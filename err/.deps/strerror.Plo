@@ -1,0 +1,23 @@
+strerror.lo: strerror.c ../config.h ../gsl/gsl_errno.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/stdio.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/features.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/alltypes.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/errno.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/errno.h \
+  ../gsl/gsl_types.h
+
+../config.h:
+
+../gsl/gsl_errno.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/stdio.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/features.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/alltypes.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/errno.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/errno.h:
+
+../gsl/gsl_types.h:

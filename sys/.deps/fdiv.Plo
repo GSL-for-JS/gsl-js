@@ -1,0 +1,18 @@
+fdiv.lo: fdiv.c ../config.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/compat/math.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/math.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/features.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/alltypes.h \
+  ../gsl/gsl_sys.h
+
+../config.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/compat/math.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/math.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/features.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/alltypes.h:
+
+../gsl/gsl_sys.h:

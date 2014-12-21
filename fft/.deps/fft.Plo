@@ -1,0 +1,185 @@
+fft.lo: fft.c ../config.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/stddef.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/alltypes.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/compat/stdlib.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/stdlib.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/features.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/alloca.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/compat/string.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/string.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/strings.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/compat/math.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/math.h \
+  ../gsl/gsl_errno.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/stdio.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/errno.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/errno.h \
+  ../gsl/gsl_types.h ../gsl/gsl_complex.h ../gsl/gsl_fft_complex.h \
+  ../gsl/gsl_math.h ../gsl/gsl_sys.h ../gsl/gsl_inline.h \
+  ../gsl/gsl_machine.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/limits.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/limits.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/float.h \
+  /home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/float.h \
+  ../gsl/gsl_precision.h ../gsl/gsl_nan.h ../gsl/gsl_pow_int.h \
+  ../gsl/gsl_minmax.h ../gsl/gsl_fft.h ../gsl/gsl_fft_complex_float.h \
+  ../templates_on.h bitreverse.c complex_internal.h bitreverse.h \
+  ../templates_off.h factorize.c factorize.h c_init.c c_main.c c_pass.h \
+  c_pass_2.c c_pass_3.c c_pass_4.c c_pass_5.c c_pass_6.c c_pass_7.c \
+  c_pass_n.c c_radix2.c ../gsl/gsl_fft_halfcomplex.h \
+  ../gsl/gsl_fft_real.h ../gsl/gsl_fft_halfcomplex_float.h \
+  ../gsl/gsl_fft_real_float.h hc_init.c hc_main.c hc_pass.h hc_pass_2.c \
+  hc_pass_3.c hc_pass_4.c hc_pass_5.c hc_pass_n.c hc_radix2.c \
+  hc_unpack.c real_init.c real_main.c real_pass.h real_pass_2.c \
+  real_pass_3.c real_pass_4.c real_pass_5.c real_pass_n.c real_radix2.c \
+  real_unpack.c
+
+../config.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/stddef.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/alltypes.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/compat/stdlib.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/stdlib.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/features.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/alloca.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/compat/string.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/string.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/strings.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/compat/math.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/math.h:
+
+../gsl/gsl_errno.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/stdio.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/errno.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/errno.h:
+
+../gsl/gsl_types.h:
+
+../gsl/gsl_complex.h:
+
+../gsl/gsl_fft_complex.h:
+
+../gsl/gsl_math.h:
+
+../gsl/gsl_sys.h:
+
+../gsl/gsl_inline.h:
+
+../gsl/gsl_machine.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/limits.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/limits.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/float.h:
+
+/home/philipp/emsdk_portable/emscripten/master/system/include/libc/bits/float.h:
+
+../gsl/gsl_precision.h:
+
+../gsl/gsl_nan.h:
+
+../gsl/gsl_pow_int.h:
+
+../gsl/gsl_minmax.h:
+
+../gsl/gsl_fft.h:
+
+../gsl/gsl_fft_complex_float.h:
+
+../templates_on.h:
+
+bitreverse.c:
+
+complex_internal.h:
+
+bitreverse.h:
+
+../templates_off.h:
+
+factorize.c:
+
+factorize.h:
+
+c_init.c:
+
+c_main.c:
+
+c_pass.h:
+
+c_pass_2.c:
+
+c_pass_3.c:
+
+c_pass_4.c:
+
+c_pass_5.c:
+
+c_pass_6.c:
+
+c_pass_7.c:
+
+c_pass_n.c:
+
+c_radix2.c:
+
+../gsl/gsl_fft_halfcomplex.h:
+
+../gsl/gsl_fft_real.h:
+
+../gsl/gsl_fft_halfcomplex_float.h:
+
+../gsl/gsl_fft_real_float.h:
+
+hc_init.c:
+
+hc_main.c:
+
+hc_pass.h:
+
+hc_pass_2.c:
+
+hc_pass_3.c:
+
+hc_pass_4.c:
+
+hc_pass_5.c:
+
+hc_pass_n.c:
+
+hc_radix2.c:
+
+hc_unpack.c:
+
+real_init.c:
+
+real_main.c:
+
+real_pass.h:
+
+real_pass_2.c:
+
+real_pass_3.c:
+
+real_pass_4.c:
+
+real_pass_5.c:
+
+real_pass_n.c:
+
+real_radix2.c:
+
+real_unpack.c:
