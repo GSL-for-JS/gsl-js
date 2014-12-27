@@ -1,17 +1,17 @@
 /* complex/gsl_complex.h
- * 
+ *
  * Copyright (C) 1996, 1997, 1998, 1999, 2000, 2007 Gerard Jungman, Brian Gough
- * 
+ *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 3 of the License, or (at
  * your option) any later version.
- * 
+ *
  * This program is distributed in the hope that it will be useful, but
  * WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  * General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
@@ -70,18 +70,42 @@ typedef const long double *  gsl_const_complex_packed_long_double_ptr ;
 typedef struct
   {
     long double dat[2];
+    long double get_real() {
+        return dat[0];
+    };
+      long double get_imag() {
+        return dat[1];
+    };
   }
 gsl_complex_long_double;
 
 typedef struct
   {
     double dat[2];
+    double get_real() {
+        return dat[0];
+    };
+    double get_imag() {
+        return dat[1];
+    };
+    void set_real(double x) {
+      dat[0] = x;
+    };
+    void set_imag(double y) {
+      dat[1] = y;
+    };
   }
 gsl_complex;
 
 typedef struct
   {
     float dat[2];
+    float get_real() {
+        return dat[0];
+    };
+    float get_imag() {
+        return dat[1];
+    };
   }
 gsl_complex_float;
 
