@@ -70,42 +70,18 @@ typedef const long double *  gsl_const_complex_packed_long_double_ptr ;
 typedef struct
   {
     long double dat[2];
-    long double get_real() {
-        return dat[0];
-    };
-      long double get_imag() {
-        return dat[1];
-    };
   }
 gsl_complex_long_double;
 
 typedef struct
   {
     double dat[2];
-    double get_real() {
-        return dat[0];
-    };
-    double get_imag() {
-        return dat[1];
-    };
-    void set_real(double x) {
-      dat[0] = x;
-    };
-    void set_imag(double y) {
-      dat[1] = y;
-    };
   }
 gsl_complex;
 
 typedef struct
   {
     float dat[2];
-    float get_real() {
-        return dat[0];
-    };
-    float get_imag() {
-        return dat[1];
-    };
   }
 gsl_complex_float;
 
